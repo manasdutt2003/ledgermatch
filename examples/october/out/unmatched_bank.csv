@@ -1,0 +1,8 @@
+id,date,amount,description,reference,likely_reason
+B00017,2026-10-03,287.29,INTEREST CREDIT,,bank charge or interest not yet recorded in the ledger
+B00029,2026-10-03,-64.18,ATM CASH WITHDRAWAL,,on the statement but not in the ledger
+B00016,2026-10-05,-232.77,NEFT CHARGES,,bank charge or interest not yet recorded in the ledger
+B00049,2026-10-08,4997.07,UPI/PIONEER LOGIST INV20284,,amount differs from a similar ledger entry (see suggestions)
+B00047,2026-10-13,-5103.92,NEFT DR PIONEER ELECTR BILL20249,,amount differs from a similar ledger entry (see suggestions)
+B00014,2026-10-15,-436.43,MONTHLY SERVICE CHARGE,,bank charge or interest not yet recorded in the ledger
+B00013,2026-10-24,-366.13,ATM CASH WITHDRAWAL,,on the statement but not in the ledger

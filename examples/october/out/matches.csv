@@ -1,0 +1,204 @@
+match,type,ambiguous,score,reason,side,id,date,amount,description,reference
+1,split,,2.00,3 bank lines add up to this ledger entry,bank,B00037,2026-10-01,-5555.80,TRF TO EVERGREEN PHAR BILL20187,
+1,split,,2.00,3 bank lines add up to this ledger entry,bank,B00035,2026-10-01,-528.79,CHQ PAID EVERGREEN PHAR 908171121,
+1,split,,2.00,3 bank lines add up to this ledger entry,bank,B00036,2026-10-01,-326.12,EVERGREEN PHAR 621382272,
+1,split,,2.00,3 bank lines add up to this ledger entry,ledger,L00037,2026-10-01,-6410.71,Payment to Evergreen Pharma Pvt Ltd,BILL-20187
+2,one_to_one,,0.96,"same amount, bank +1 day(s)",bank,B00031,2026-10-02,-499.00,IMPS/ORCHID MOTORS 503840901,
+2,one_to_one,,0.96,"same amount, bank +1 day(s)",ledger,L00033,2026-10-01,-499.00,Payment to Orchid Motors Pvt Ltd,CHQ-20165
+3,one_to_one,,2.00,"same amount, shared reference, bank +0 day(s)",bank,B00072,2026-10-03,-3903.57,ACH DR ORCHID MOTORS BILL20436,
+3,one_to_one,,2.00,"same amount, shared reference, bank +0 day(s)",ledger,L00086,2026-10-03,-3903.57,Payment to Orchid Motors Pvt Ltd,BILL-20436
+4,one_to_one,,1.00,"same amount, bank +0 day(s)",bank,B00004,2026-10-04,-1634.49,IMPS/EVERGREEN ELEC 335780633,
+4,one_to_one,,1.00,"same amount, bank +0 day(s)",ledger,L00004,2026-10-04,-1634.49,Payment to Evergreen Electricals Pvt Ltd,BILL-20013
+5,one_to_one,yes,0.96,"same amount, bank +1 day(s)",bank,B00008,2026-10-04,49.00,IMPS/DELTA EXPORTS 825821165,
+5,one_to_one,yes,0.96,"same amount, bank +1 day(s)",ledger,L00007,2026-10-03,49.00,Receipt from Delta Exports Pvt Ltd,INV-20028
+6,one_to_one,,0.96,"same amount, bank +1 day(s)",bank,B00011,2026-10-04,-49.00,TRF TO RADIANT CHEMIC 387612212,
+6,one_to_one,,0.96,"same amount, bank +1 day(s)",ledger,L00011,2026-10-03,-49.00,Payment to Radiant Chemicals Pvt Ltd,BILL-20049
+7,fee,,0.97,"bank is 61.65 short (2.9%), consistent with a processing fee",bank,B00021,2026-10-04,2053.93,PAYOUT WILLOW MOTORS 6104376,
+7,fee,,0.97,"bank is 61.65 short (2.9%), consistent with a processing fee",ledger,L00019,2026-10-02,2115.58,Receipt from Willow Motors Pvt Ltd,INV-20088
+8,one_to_one,,2.00,"same amount, shared reference, bank +0 day(s)",bank,B00044,2026-10-04,7582.94,NEFT CR QUARTZ SYSTEMS INV20239,
+8,one_to_one,,2.00,"same amount, shared reference, bank +0 day(s)",ledger,L00046,2026-10-04,7582.94,Receipt from Quartz Systems Pvt Ltd,INV-20239
+9,split,,1.93,2 bank lines add up to this ledger entry,bank,B00054,2026-10-04,-4076.96,FALCON PLASTIC 132515111,
+9,split,,1.93,2 bank lines add up to this ledger entry,bank,B00053,2026-10-03,-3918.19,CHQ PAID FALCON PLASTIC BILL20323,
+9,split,,1.93,2 bank lines add up to this ledger entry,ledger,L00063,2026-10-03,-7995.15,Payment to Falcon Plastics Pvt Ltd,BILL-20323
+10,batch,,0.50,3 ledger entries add up to this bank line,bank,B00012,2026-10-05,12745.90,CASH DEPOSIT BR 922 SLIP 12380,
+10,batch,,0.50,3 ledger entries add up to this bank line,ledger,L00014,2026-10-04,7063.07,Receipt from Pioneer Chemicals Pvt Ltd,INV-20064
+10,batch,,0.50,3 ledger entries add up to this bank line,ledger,L00013,2026-10-04,5583.83,Receipt from Apex Fabrics Pvt Ltd,INV-20059
+10,batch,,0.50,3 ledger entries add up to this bank line,ledger,L00012,2026-10-04,99.00,Receipt from Pioneer Logistics Pvt Ltd,INV-20054
+11,one_to_one,,1.92,"same amount, shared reference, bank +2 day(s)",bank,B00026,2026-10-05,-3493.89,IMPS/NIMBUS TRADERS CHQ20132,
+11,one_to_one,,1.92,"same amount, shared reference, bank +2 day(s)",ledger,L00029,2026-10-03,-3493.89,Payment to Nimbus Traders Pvt Ltd,CHQ-20132
+12,one_to_one,,1.96,"same amount, shared reference, bank +1 day(s)",bank,B00027,2026-10-05,7100.30,RTGS CR QUARTZ SYSTEMS INV20140,
+12,one_to_one,,1.96,"same amount, shared reference, bank +1 day(s)",ledger,L00030,2026-10-04,7100.30,Receipt from Quartz Systems Pvt Ltd,INV-20140
+13,batch,,0.50,2 ledger entries add up to this bank line,bank,B00098,2026-10-05,148.00,CASH DEPOSIT BR 142 SLIP 28140,
+13,batch,,0.50,2 ledger entries add up to this bank line,ledger,L00121,2026-10-05,99.00,Receipt from Granite Agencies Pvt Ltd,INV-20611
+13,batch,,0.50,2 ledger entries add up to this bank line,ledger,L00120,2026-10-05,49.00,Receipt from Falcon Papers Pvt Ltd,INV-20610
+14,split,,2.00,2 bank lines add up to this ledger entry,bank,B00006,2026-10-06,-1394.12,ORCHID LOGISTI CHQ20020,
+14,split,,2.00,2 bank lines add up to this ledger entry,bank,B00005,2026-10-06,-898.97,IMPS/ORCHID LOGISTI CHQ20020,
+14,split,,2.00,2 bank lines add up to this ledger entry,ledger,L00005,2026-10-06,-2293.09,Payment to Orchid Logistics Pvt Ltd,CHQ-20020
+15,one_to_one,,0.96,"same amount, bank +1 day(s)",bank,B00030,2026-10-06,6638.52,NEFT CR DELTA MOTORS 348446255,
+15,one_to_one,,0.96,"same amount, bank +1 day(s)",ledger,L00032,2026-10-05,6638.52,Receipt from Delta Motors Pvt Ltd,INV-20157
+16,one_to_one,,0.96,"same amount, bank -1 day(s)",bank,B00046,2026-10-06,2359.43,UPI/WILLOW MOTORS 399148389,
+16,one_to_one,,0.96,"same amount, bank -1 day(s)",ledger,L00048,2026-10-07,2359.43,Receipt from Willow Motors Pvt Ltd,INV-20245
+17,one_to_one,yes,0.80,"same amount, bank +5 day(s)",bank,B00056,2026-10-06,-1139.71,CHQ PAID APEX EXPORTS 561642499,
+17,one_to_one,yes,0.80,"same amount, bank +5 day(s)",ledger,L00069,2026-10-01,-1139.71,Payment to Apex Exports Pvt Ltd,CHQ-20353
+18,one_to_one,,1.92,"same amount, shared reference, bank +2 day(s)",bank,B00061,2026-10-06,-3097.01,ACH DR HARBOR MOTORS CHQ20380,
+18,one_to_one,,1.92,"same amount, shared reference, bank +2 day(s)",ledger,L00075,2026-10-04,-3097.01,Payment to Harbor Motors Pvt Ltd,CHQ-20380
+19,one_to_one,,0.88,"same amount, bank +3 day(s)",bank,B00065,2026-10-06,-1878.93,NIMBUS TRADERS 213580477,
+19,one_to_one,,0.88,"same amount, bank +3 day(s)",ledger,L00079,2026-10-03,-1878.93,Payment to Nimbus Traders Pvt Ltd,CHQ-20395
+20,batch,,0.50,5 ledger entries add up to this bank line,bank,B00048,2026-10-07,14664.24,CASH DEPOSIT BR 310 SLIP 74971,
+20,batch,,0.50,5 ledger entries add up to this bank line,ledger,L00050,2026-10-07,6801.05,Receipt from Apex Systems Pvt Ltd,INV-20251
+20,batch,,0.50,5 ledger entries add up to this bank line,ledger,L00053,2026-10-07,3814.19,Receipt from Quartz Systems Pvt Ltd,INV-20270
+20,batch,,0.50,5 ledger entries add up to this bank line,ledger,L00054,2026-10-07,2500.00,Receipt from Falcon Traders Pvt Ltd,INV-20279
+20,batch,,0.50,5 ledger entries add up to this bank line,ledger,L00051,2026-10-07,1500.00,Receipt from Falcon Plastics Pvt Ltd,INV-20257
+20,batch,,0.50,5 ledger entries add up to this bank line,ledger,L00052,2026-10-07,49.00,Receipt from Granite Agencies Pvt Ltd,INV-20263
+21,batch,,0.50,2 ledger entries add up to this bank line,bank,B00066,2026-10-07,1913.29,CASH DEPOSIT BR 938 SLIP 52893,
+21,batch,,0.50,2 ledger entries add up to this bank line,ledger,L00080,2026-10-07,1497.36,Receipt from Vertex Plastics Pvt Ltd,INV-20399
+21,batch,,0.50,2 ledger entries add up to this bank line,ledger,L00081,2026-10-07,415.93,Receipt from Unity Fabrics Pvt Ltd,INV-20403
+22,one_to_one,,0.96,"same amount, bank +1 day(s)",bank,B00041,2026-10-08,7875.72,APEX PAPERS 504656588,
+22,one_to_one,,0.96,"same amount, bank +1 day(s)",ledger,L00042,2026-10-07,7875.72,Receipt from Apex Papers Pvt Ltd,INV-20212
+23,batch,,0.50,5 ledger entries add up to this bank line,bank,B00050,2026-10-08,14334.22,CASH DEPOSIT BR 437 SLIP 34993,
+23,batch,,0.50,5 ledger entries add up to this bank line,ledger,L00056,2026-10-08,6991.11,Receipt from Kestrel Papers Pvt Ltd,INV-20287
+23,batch,,0.50,5 ledger entries add up to this bank line,ledger,L00060,2026-10-08,3309.62,Receipt from Unity Systems Pvt Ltd,INV-20299
+23,batch,,0.50,5 ledger entries add up to this bank line,ledger,L00059,2026-10-08,1945.47,Receipt from Kestrel Agencies Pvt Ltd,INV-20297
+23,batch,,0.50,5 ledger entries add up to this bank line,ledger,L00058,2026-10-08,1503.04,Receipt from Apex Systems Pvt Ltd,INV-20289
+23,batch,,0.50,5 ledger entries add up to this bank line,ledger,L00057,2026-10-08,584.98,Receipt from Apex Fabrics Pvt Ltd,INV-20288
+24,one_to_one,,1.92,"same amount, shared reference, bank +2 day(s)",bank,B00060,2026-10-08,499.00,WILLOW BUILDER INV20375,
+24,one_to_one,,1.92,"same amount, shared reference, bank +2 day(s)",ledger,L00074,2026-10-06,499.00,Receipt from Willow Builders Pvt Ltd,INV-20375
+25,one_to_one,,1.00,"same amount, bank +0 day(s)",bank,B00085,2026-10-08,49.00,IMPS/GRANITE FABRIC 398713012,
+25,one_to_one,,1.00,"same amount, bank +0 day(s)",ledger,L00097,2026-10-08,49.00,Receipt from Granite Fabrics Pvt Ltd,INV-20485
+26,one_to_one,,2.00,"same amount, shared reference, bank +0 day(s)",bank,B00042,2026-10-09,-3791.39,IMPS/NIMBUS CHEMICA BILL20215,
+26,one_to_one,,2.00,"same amount, shared reference, bank +0 day(s)",ledger,L00043,2026-10-09,-3791.39,Payment to Nimbus Chemicals Pvt Ltd,BILL-20215
+27,fee,,0.97,"bank is 3.07 short (3.2%), consistent with a processing fee",bank,B00057,2026-10-09,92.57,PAYOUT ORCHID LOGISTI 3538648,
+27,fee,,0.97,"bank is 3.07 short (3.2%), consistent with a processing fee",ledger,L00071,2026-10-06,95.64,Receipt from Orchid Logistics Pvt Ltd,INV-20358
+28,one_to_one,,1.96,"same amount, shared reference, bank +1 day(s)",bank,B00062,2026-10-09,199.00,ACH CR PIONEER CHEMIC INV20384,
+28,one_to_one,,1.96,"same amount, shared reference, bank +1 day(s)",ledger,L00076,2026-10-08,199.00,Receipt from Pioneer Chemicals Pvt Ltd,INV-20384
+29,one_to_one,,1.96,"same amount, shared reference, bank +1 day(s)",bank,B00038,2026-10-10,6860.29,IMPS/KESTREL SYSTEM INV20192,
+29,one_to_one,,1.96,"same amount, shared reference, bank +1 day(s)",ledger,L00038,2026-10-09,6860.29,Receipt from Kestrel Systems Pvt Ltd,INV-20192
+30,batch,,0.50,3 ledger entries add up to this bank line,bank,B00095,2026-10-10,11317.05,CASH DEPOSIT BR 757 SLIP 38442,
+30,batch,,0.50,3 ledger entries add up to this bank line,ledger,L00116,2026-10-09,7205.43,Receipt from Evergreen Plastics Pvt Ltd,INV-20590
+30,batch,,0.50,3 ledger entries add up to this bank line,ledger,L00115,2026-10-09,2804.08,Receipt from Willow Exports Pvt Ltd,INV-20585
+30,batch,,0.50,3 ledger entries add up to this bank line,ledger,L00114,2026-10-09,1307.54,Receipt from Meridian Textiles Pvt Ltd,INV-20576
+31,split,,0.86,2 bank lines add up to this ledger entry,bank,B00001,2026-10-11,-5338.40,CHQ PAID WILLOW PLASTIC 365918391,
+31,split,,0.86,2 bank lines add up to this ledger entry,bank,B00002,2026-10-13,-2525.41,TRF TO WILLOW PLASTIC 378735098,
+31,split,,0.86,2 bank lines add up to this ledger entry,ledger,L00001,2026-10-11,-7863.81,Payment to Willow Plastics Pvt Ltd,CHQ-20005
+32,one_to_one,,1.80,"same amount, shared reference, bank +5 day(s)",bank,B00010,2026-10-11,774.31,GRANITE AGENCI INV20041,
+32,one_to_one,,1.80,"same amount, shared reference, bank +5 day(s)",ledger,L00010,2026-10-06,774.31,Receipt from Granite Agencies Pvt Ltd,INV-20041
+33,one_to_one,,2.00,"same amount, shared reference, bank +0 day(s)",bank,B00019,2026-10-11,5751.48,UPI/DELTA MOTORS INV20083,
+33,one_to_one,,2.00,"same amount, shared reference, bank +0 day(s)",ledger,L00017,2026-10-11,5751.48,Receipt from Delta Motors Pvt Ltd,INV-20083
+34,fee,,0.97,"bank is 37.16 short (2.9%), consistent with a processing fee",bank,B00064,2026-10-11,1233.86,PAYOUT JADE FOODS 4180510,
+34,fee,,0.97,"bank is 37.16 short (2.9%), consistent with a processing fee",ledger,L00078,2026-10-10,1271.02,Receipt from Jade Foods Pvt Ltd,INV-20387
+35,one_to_one,,0.96,"same amount, bank +1 day(s)",bank,B00067,2026-10-11,49.00,NEFT CR FALCON PAPERS 954530853,
+35,one_to_one,,0.96,"same amount, bank +1 day(s)",ledger,L00082,2026-10-10,49.00,Receipt from Falcon Papers Pvt Ltd,INV-20411
+36,one_to_one,,1.96,"same amount, shared reference, bank +1 day(s)",bank,B00007,2026-10-14,999.00,NEFT CR BLUE ELECTRICA INV20025,
+36,one_to_one,,1.96,"same amount, shared reference, bank +1 day(s)",ledger,L00006,2026-10-13,999.00,Receipt from Blue Electricals Pvt Ltd,INV-20025
+37,one_to_one,,0.96,"same amount, bank +1 day(s)",bank,B00033,2026-10-14,6192.96,ACH CR KESTREL AGENCI 151827478,
+37,one_to_one,,0.96,"same amount, bank +1 day(s)",ledger,L00035,2026-10-13,6192.96,Receipt from Kestrel Agencies Pvt Ltd,INV-20174
+38,one_to_one,yes,2.00,"same amount, shared reference, bank +0 day(s)",bank,B00040,2026-10-14,-99.00,TRF TO WILLOW PLASTIC BILL20205,
+38,one_to_one,yes,2.00,"same amount, shared reference, bank +0 day(s)",ledger,L00040,2026-10-14,-99.00,Payment to Willow Plastics Pvt Ltd,BILL-20205
+39,split,,2.00,2 bank lines add up to this ledger entry,bank,B00071,2026-10-14,-2903.64,NEFT DR ORCHID PLASTIC BILL20427,
+39,split,,2.00,2 bank lines add up to this ledger entry,bank,B00070,2026-10-14,-2139.75,ACH DR ORCHID PLASTIC 274530915,
+39,split,,2.00,2 bank lines add up to this ledger entry,ledger,L00085,2026-10-14,-5043.39,Payment to Orchid Plastics Pvt Ltd,BILL-20427
+40,one_to_one,,1.96,"same amount, shared reference, bank +1 day(s)",bank,B00075,2026-10-14,1655.80,IMPS/VERTEX PLASTIC INV20450,
+40,one_to_one,,1.96,"same amount, shared reference, bank +1 day(s)",ledger,L00089,2026-10-13,1655.80,Receipt from Vertex Plastics Pvt Ltd,INV-20450
+41,one_to_one,,0.96,"same amount, bank -1 day(s)",bank,B00078,2026-10-14,1889.47,ACH CR DELTA MOTORS 579768106,
+41,one_to_one,,0.96,"same amount, bank -1 day(s)",ledger,L00091,2026-10-15,1889.47,Receipt from Delta Motors Pvt Ltd,INV-20457
+42,one_to_one,,1.92,"same amount, shared reference, bank +2 day(s)",bank,B00089,2026-10-14,4348.11,IMPS/EVERGREEN PLAS INV20535,
+42,one_to_one,,1.92,"same amount, shared reference, bank +2 day(s)",ledger,L00107,2026-10-12,4348.11,Receipt from Evergreen Plastics Pvt Ltd,INV-20535
+43,one_to_one,,0.80,"same amount, bank +5 day(s)",bank,B00096,2026-10-14,8841.10,QUARTZ FABRICS 306090757,
+43,one_to_one,,0.80,"same amount, bank +5 day(s)",ledger,L00117,2026-10-09,8841.10,Receipt from Quartz Fabrics Pvt Ltd,INV-20594
+44,one_to_one,,0.80,"same amount, bank +5 day(s)",bank,B00034,2026-10-15,1576.48,ACH CR DELTA FABRICS 303848860,
+44,one_to_one,,0.80,"same amount, bank +5 day(s)",ledger,L00036,2026-10-10,1576.48,Receipt from Delta Fabrics Pvt Ltd,INV-20178
+45,one_to_one,,0.92,"same amount, bank +2 day(s)",bank,B00074,2026-10-15,-1500.00,TRF TO RADIANT PHARMA 990333519,
+45,one_to_one,,0.92,"same amount, bank +2 day(s)",ledger,L00088,2026-10-13,-1500.00,Payment to Radiant Pharma Pvt Ltd,BILL-20443
+46,one_to_one,,2.00,"same amount, shared reference, bank +0 day(s)",bank,B00020,2026-10-16,1500.00,NEFT CR VERTEX PAPERS INV20087,
+46,one_to_one,,2.00,"same amount, shared reference, bank +0 day(s)",ledger,L00018,2026-10-16,1500.00,Receipt from Vertex Papers Pvt Ltd,INV-20087
+47,one_to_one,,0.80,"same amount, bank +5 day(s)",bank,B00032,2026-10-16,-8813.71,IMPS/KESTREL MOTORS 894469979,
+47,one_to_one,,0.80,"same amount, bank +5 day(s)",ledger,L00034,2026-10-11,-8813.71,Payment to Kestrel Motors Pvt Ltd,BILL-20172
+48,one_to_one,,0.96,"same amount, bank +1 day(s)",bank,B00058,2026-10-16,8217.47,ACH CR EVERGREEN LOGI 365544423,
+48,one_to_one,,0.96,"same amount, bank +1 day(s)",ledger,L00072,2026-10-15,8217.47,Receipt from Evergreen Logistics Pvt Ltd,INV-20360
+49,one_to_one,,1.96,"same amount, shared reference, bank +1 day(s)",bank,B00087,2026-10-16,999.00,RTGS CR VERTEX PAPERS INV20515,
+49,one_to_one,,1.96,"same amount, shared reference, bank +1 day(s)",ledger,L00102,2026-10-15,999.00,Receipt from Vertex Papers Pvt Ltd,INV-20515
+50,batch,,0.50,3 ledger entries add up to this bank line,bank,B00023,2026-10-17,14097.70,CASH DEPOSIT BR 485 SLIP 69164,
+50,batch,,0.50,3 ledger entries add up to this bank line,ledger,L00023,2026-10-17,7909.38,Receipt from Granite Fabrics Pvt Ltd,INV-20102
+50,batch,,0.50,3 ledger entries add up to this bank line,ledger,L00024,2026-10-17,6139.32,Receipt from Quartz Systems Pvt Ltd,INV-20106
+50,batch,,0.50,3 ledger entries add up to this bank line,ledger,L00025,2026-10-17,49.00,Receipt from Kestrel Logistics Pvt Ltd,INV-20112
+51,one_to_one,,0.96,"same amount, bank +1 day(s)",bank,B00073,2026-10-17,8321.24,NEFT CR CEDAR EXPORTS 618334357,
+51,one_to_one,,0.96,"same amount, bank +1 day(s)",ledger,L00087,2026-10-16,8321.24,Receipt from Cedar Exports Pvt Ltd,INV-20440
+52,split,,0.93,2 bank lines add up to this ledger entry,bank,B00076,2026-10-18,-4097.73,CHQ PAID JADE FOODS 773281671,
+52,split,,0.93,2 bank lines add up to this ledger entry,bank,B00077,2026-10-19,-3505.67,JADE FOODS 725588468,
+52,split,,0.93,2 bank lines add up to this ledger entry,ledger,L00090,2026-10-18,-7603.40,Payment to Jade Foods Pvt Ltd,BILL-20456
+53,one_to_one,,2.00,"same amount, shared reference, bank +0 day(s)",bank,B00092,2026-10-18,99.00,NEFT CR KESTREL PAPERS INV20555,
+53,one_to_one,,2.00,"same amount, shared reference, bank +0 day(s)",ledger,L00111,2026-10-18,99.00,Receipt from Kestrel Papers Pvt Ltd,INV-20555
+54,one_to_one,,0.84,"same amount, bank +4 day(s)",bank,B00093,2026-10-18,-999.00,IMPS/CEDAR FOODS 168469496,
+54,one_to_one,,0.84,"same amount, bank +4 day(s)",ledger,L00112,2026-10-14,-999.00,Payment to Cedar Foods Pvt Ltd,CHQ-20564
+55,one_to_one,,0.96,"same amount, bank +1 day(s)",bank,B00024,2026-10-19,-5145.62,NEFT DR RADIANT PHARMA 640061052,
+55,one_to_one,,0.96,"same amount, bank +1 day(s)",ledger,L00026,2026-10-18,-5145.62,Payment to Radiant Pharma Pvt Ltd,BILL-20117
+56,one_to_one,,0.96,"same amount, bank +1 day(s)",bank,B00028,2026-10-19,-49.00,NEFT DR PIONEER ELECTR 582594300,
+56,one_to_one,,0.96,"same amount, bank +1 day(s)",ledger,L00031,2026-10-18,-49.00,Payment to Pioneer Electricals Pvt Ltd,BILL-20148
+57,one_to_one,,1.80,"same amount, shared reference, bank +5 day(s)",bank,B00052,2026-10-19,1312.17,IMPS/QUARTZ HARDWAR INV20315,
+57,one_to_one,,1.80,"same amount, shared reference, bank +5 day(s)",ledger,L00062,2026-10-14,1312.17,Receipt from Quartz Hardware Pvt Ltd,INV-20315
+58,fee,,0.97,"bank is 61.52 short (2.9%), consistent with a processing fee",bank,B00015,2026-10-20,2049.38,PAYOUT ORCHID LOGISTI 4610140,
+58,fee,,0.97,"bank is 61.52 short (2.9%), consistent with a processing fee",ledger,L00015,2026-10-18,2110.90,Receipt from Orchid Logistics Pvt Ltd,INV-20073
+59,one_to_one,,1.80,"same amount, shared reference, bank +5 day(s)",bank,B00051,2026-10-20,-1500.00,CHQ PAID APEX FOODS CHQ20306,
+59,one_to_one,,1.80,"same amount, shared reference, bank +5 day(s)",ledger,L00061,2026-10-15,-1500.00,Payment to Apex Foods Pvt Ltd,CHQ-20306
+60,one_to_one,,1.00,"same amount, bank +0 day(s)",bank,B00084,2026-10-20,2500.00,RTGS CR EVERGREEN LOGI 615511585,
+60,one_to_one,,1.00,"same amount, bank +0 day(s)",ledger,L00096,2026-10-20,2500.00,Receipt from Evergreen Logistics Pvt Ltd,INV-20481
+61,fee,,0.97,"bank is 80.02 short (2.9%), consistent with a processing fee",bank,B00009,2026-10-21,2668.92,PAYOUT NIMBUS EXPORTS 6486963,
+61,fee,,0.97,"bank is 80.02 short (2.9%), consistent with a processing fee",ledger,L00009,2026-10-18,2748.94,Receipt from Nimbus Exports Pvt Ltd,INV-20036
+62,one_to_one,,0.88,"same amount, bank +3 day(s)",bank,B00068,2026-10-21,99.00,ACH CR WILLOW EXPORTS 817056539,
+62,one_to_one,,0.88,"same amount, bank +3 day(s)",ledger,L00083,2026-10-18,99.00,Receipt from Willow Exports Pvt Ltd,INV-20418
+63,one_to_one,,0.96,"same amount, bank +1 day(s)",bank,B00045,2026-10-22,1356.82,ACH CR VERTEX PLASTIC 220401557,
+63,one_to_one,,0.96,"same amount, bank +1 day(s)",ledger,L00047,2026-10-21,1356.82,Receipt from Vertex Plastics Pvt Ltd,INV-20244
+64,batch,,0.50,4 ledger entries add up to this bank line,bank,B00088,2026-10-22,19118.69,CASH DEPOSIT BR 155 SLIP 10342,
+64,batch,,0.50,4 ledger entries add up to this bank line,ledger,L00103,2026-10-22,7849.11,Receipt from Vertex Plastics Pvt Ltd,INV-20519
+64,batch,,0.50,4 ledger entries add up to this bank line,ledger,L00106,2026-10-22,6437.73,Receipt from Kestrel Plastics Pvt Ltd,INV-20530
+64,batch,,0.50,4 ledger entries add up to this bank line,ledger,L00105,2026-10-22,3832.85,Receipt from Kestrel Papers Pvt Ltd,INV-20529
+64,batch,,0.50,4 ledger entries add up to this bank line,ledger,L00104,2026-10-22,999.00,Receipt from Willow Exports Pvt Ltd,INV-20526
+65,one_to_one,,0.80,"same amount, bank +5 day(s)",bank,B00059,2026-10-23,-1699.98,ACH DR NIMBUS CHEMICA 323704491,
+65,one_to_one,,0.80,"same amount, bank +5 day(s)",ledger,L00073,2026-10-18,-1699.98,Payment to Nimbus Chemicals Pvt Ltd,BILL-20367
+66,one_to_one,,0.96,"same amount, bank -1 day(s)",bank,B00069,2026-10-23,-3760.32,ACH DR QUARTZ LOGISTI 519544342,
+66,one_to_one,,0.96,"same amount, bank -1 day(s)",ledger,L00084,2026-10-24,-3760.32,Payment to Quartz Logistics Pvt Ltd,CHQ-20425
+67,one_to_one,,2.00,"same amount, shared reference, bank +0 day(s)",bank,B00025,2026-10-24,-4842.01,RADIANT CHEMIC CHQ20127,
+67,one_to_one,,2.00,"same amount, shared reference, bank +0 day(s)",ledger,L00028,2026-10-24,-4842.01,Payment to Radiant Chemicals Pvt Ltd,CHQ-20127
+68,one_to_one,,0.80,"same amount, bank +5 day(s)",bank,B00039,2026-10-26,99.00,ACH CR QUARTZ FABRICS 586390095,
+68,one_to_one,,0.80,"same amount, bank +5 day(s)",ledger,L00039,2026-10-21,99.00,Receipt from Quartz Fabrics Pvt Ltd,INV-20201
+69,batch,,0.50,5 ledger entries add up to this bank line,bank,B00055,2026-10-26,15324.23,CASH DEPOSIT BR 103 SLIP 88062,
+69,batch,,0.50,5 ledger entries add up to this bank line,ledger,L00068,2026-10-25,7245.74,Receipt from Evergreen Logistics Pvt Ltd,INV-20345
+69,batch,,0.50,5 ledger entries add up to this bank line,ledger,L00066,2026-10-25,6365.34,Receipt from Meridian Textiles Pvt Ltd,INV-20335
+69,batch,,0.50,5 ledger entries add up to this bank line,ledger,L00067,2026-10-25,999.00,Receipt from Vertex Plastics Pvt Ltd,INV-20340
+69,batch,,0.50,5 ledger entries add up to this bank line,ledger,L00065,2026-10-25,665.15,Receipt from Willow Pharma Pvt Ltd,INV-20329
+69,batch,,0.50,5 ledger entries add up to this bank line,ledger,L00064,2026-10-25,49.00,Receipt from Nimbus Logistics Pvt Ltd,INV-20325
+70,one_to_one,,1.00,"same amount, bank +0 day(s)",bank,B00063,2026-10-26,499.00,ACH CR KESTREL PLASTI 348156294,
+70,one_to_one,,1.00,"same amount, bank +0 day(s)",ledger,L00077,2026-10-26,499.00,Receipt from Kestrel Plastics Pvt Ltd,INV-20385
+71,one_to_one,,1.88,"same amount, shared reference, bank +3 day(s)",bank,B00094,2026-10-26,3948.82,ACH CR QUARTZ TRADERS INV20571,
+71,one_to_one,,1.88,"same amount, shared reference, bank +3 day(s)",ledger,L00113,2026-10-23,3948.82,Receipt from Quartz Traders Pvt Ltd,INV-20571
+72,fee,,0.97,"bank is 111.39 short (2.9%), consistent with a processing fee",bank,B00083,2026-10-27,3719.14,PAYOUT ZENITH TEXTILE 6887081,
+72,fee,,0.97,"bank is 111.39 short (2.9%), consistent with a processing fee",ledger,L00095,2026-10-26,3830.53,Receipt from Zenith Textiles Pvt Ltd,INV-20473
+73,batch,,0.50,4 ledger entries add up to this bank line,bank,B00086,2026-10-27,11025.42,CASH DEPOSIT BR 477 SLIP 85675,
+73,batch,,0.50,4 ledger entries add up to this bank line,ledger,L00099,2026-10-26,4765.45,Receipt from Orchid Traders Pvt Ltd,INV-20500
+73,batch,,0.50,4 ledger entries add up to this bank line,ledger,L00101,2026-10-26,4149.07,Receipt from Delta Motors Pvt Ltd,INV-20514
+73,batch,,0.50,4 ledger entries add up to this bank line,ledger,L00100,2026-10-26,1111.90,Receipt from Willow Pharma Pvt Ltd,INV-20509
+73,batch,,0.50,4 ledger entries add up to this bank line,ledger,L00098,2026-10-26,999.00,Receipt from Kestrel Papers Pvt Ltd,INV-20491
+74,one_to_one,yes,0.96,"same amount, bank +1 day(s)",bank,B00003,2026-10-28,-4383.75,NEFT DR NIMBUS TRADERS 559925153,
+74,one_to_one,yes,0.96,"same amount, bank +1 day(s)",ledger,L00002,2026-10-27,-4383.75,Payment to Nimbus Traders Pvt Ltd,CHQ-20007
+75,batch,,0.50,3 ledger entries add up to this bank line,bank,B00022,2026-10-28,16093.57,CASH DEPOSIT BR 944 SLIP 77237,
+75,batch,,0.50,3 ledger entries add up to this bank line,ledger,L00021,2026-10-28,7571.84,Receipt from Orchid Logistics Pvt Ltd,INV-20098
+75,batch,,0.50,3 ledger entries add up to this bank line,ledger,L00020,2026-10-28,7522.73,Receipt from Unity Fabrics Pvt Ltd,INV-20095
+75,batch,,0.50,3 ledger entries add up to this bank line,ledger,L00022,2026-10-28,999.00,Receipt from Kestrel Plastics Pvt Ltd,INV-20101
+76,split,,0.93,2 bank lines add up to this ledger entry,bank,B00080,2026-10-28,-4848.24,TRF TO WILLOW PLASTIC 143773013,
+76,split,,0.93,2 bank lines add up to this ledger entry,bank,B00079,2026-10-27,-713.81,ACH DR WILLOW PLASTIC 198476237,
+76,split,,0.93,2 bank lines add up to this ledger entry,ledger,L00092,2026-10-27,-5562.05,Payment to Willow Plastics Pvt Ltd,BILL-20464
+77,one_to_one,,0.88,"same amount, bank +3 day(s)",bank,B00081,2026-10-28,853.52,ACH CR EVERGREEN LOGI 942074269,
+77,one_to_one,,0.88,"same amount, bank +3 day(s)",ledger,L00093,2026-10-25,853.52,Receipt from Evergreen Logistics Pvt Ltd,INV-20465
+78,fee,,0.97,"bank is 38.79 short (2.9%), consistent with a processing fee",bank,B00090,2026-10-28,1288.31,PAYOUT ORCHID PLASTIC 2607335,
+78,fee,,0.97,"bank is 38.79 short (2.9%), consistent with a processing fee",ledger,L00108,2026-10-26,1327.10,Receipt from Orchid Plastics Pvt Ltd,INV-20538
+79,batch,,0.50,2 ledger entries add up to this bank line,bank,B00043,2026-10-29,998.00,CASH DEPOSIT BR 354 SLIP 24292,
+79,batch,,0.50,2 ledger entries add up to this bank line,ledger,L00044,2026-10-28,499.00,Receipt from Quartz Traders Pvt Ltd,INV-20223
+79,batch,,0.50,2 ledger entries add up to this bank line,ledger,L00045,2026-10-28,499.00,Receipt from Evergreen Plastics Pvt Ltd,INV-20231
+80,one_to_one,,1.80,"same amount, shared reference, bank +5 day(s)",bank,B00082,2026-10-29,-1164.11,CHQ PAID JADE CHEMICALS BILL20469,
+80,one_to_one,,1.80,"same amount, shared reference, bank +5 day(s)",ledger,L00094,2026-10-24,-1164.11,Payment to Jade Chemicals Pvt Ltd,BILL-20469
+81,one_to_one,,0.92,"same amount, bank +2 day(s)",bank,B00097,2026-10-30,1500.00,UPI/ORCHID PLASTIC 520437628,
+81,one_to_one,,0.92,"same amount, bank +2 day(s)",ledger,L00119,2026-10-28,1500.00,Receipt from Orchid Plastics Pvt Ltd,INV-20607
+82,one_to_one,,0.88,"same amount, bank +3 day(s)",bank,B00018,2026-10-31,2971.28,NEFT CR CEDAR EXPORTS 269149705,
+82,one_to_one,,0.88,"same amount, bank +3 day(s)",ledger,L00016,2026-10-28,2971.28,Receipt from Cedar Exports Pvt Ltd,INV-20077
+83,one_to_one,,0.80,"same amount, bank +5 day(s)",bank,B00091,2026-10-31,2500.00,NEFT CR DELTA FABRICS 703798500,
+83,one_to_one,,0.80,"same amount, bank +5 day(s)",ledger,L00109,2026-10-26,2500.00,Receipt from Delta Fabrics Pvt Ltd,INV-20543

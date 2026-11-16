@@ -1,0 +1,10 @@
+id,date,amount,description,reference,likely_reason
+L00070,2026-10-01,-1139.71,Payment to Apex Exports Pvt Ltd,CHQ-20353,"possible duplicate of L00069, which is already matched"
+L00008,2026-10-03,49.00,Receipt from Delta Exports Pvt Ltd,INV-20028,"possible duplicate of L00007, which is already matched"
+L00049,2026-10-08,-5103.29,Payment to Pioneer Electricals Pvt Ltd,BILL-20249,amount differs from a similar bank line (see suggestions)
+L00055,2026-10-08,4979.07,Receipt from Pioneer Logistics Pvt Ltd,INV-20284,amount differs from a similar bank line (see suggestions)
+L00041,2026-10-14,-99.00,Payment to Willow Plastics Pvt Ltd,BILL-20205,"possible duplicate of L00040, which is already matched"
+L00003,2026-10-27,-4383.75,Payment to Nimbus Traders Pvt Ltd,CHQ-20007,"possible duplicate of L00002, which is already matched"
+L00110,2026-10-27,-7706.53,Payment to Willow Motors Pvt Ltd,BILL-20551,recent entry; probably not cleared by the statement date
+L00027,2026-10-28,-2659.44,Payment to Evergreen Plastics Pvt Ltd,CHQ-20119,recent entry; probably not cleared by the statement date
+L00118,2026-10-28,-6990.50,Payment to Zenith Builders Pvt Ltd,CHQ-20603,recent entry; probably not cleared by the statement date
